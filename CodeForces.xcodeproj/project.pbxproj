@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C506A58A24B9E36D00E0BC8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C506A58924B9E36D00E0BC8A /* main.cpp */; };
 		C506A5A524B9E7CE00E0BC8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C506A5A424B9E7CE00E0BC8A /* main.cpp */; };
+		C506A5B024B9EA4900E0BC8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C506A5AF24B9EA4900E0BC8A /* main.cpp */; };
+		C506A5BB24B9F6C000E0BC8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C506A5BA24B9F6C000E0BC8A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C506A5AB24B9EA4900E0BC8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C506A5B624B9F6C000E0BC8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +67,10 @@
 		C506A59624B9E6BB00E0BC8A /* CodeForcesProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeForcesProblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		C506A5A224B9E7CE00E0BC8A /* Watermelon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Watermelon; sourceTree = BUILT_PRODUCTS_DIR; };
 		C506A5A424B9E7CE00E0BC8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C506A5AD24B9EA4900E0BC8A /* WayTooLongWords */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WayTooLongWords; sourceTree = BUILT_PRODUCTS_DIR; };
+		C506A5AF24B9EA4900E0BC8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C506A5B824B9F6C000E0BC8A /* Team */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Team; sourceTree = BUILT_PRODUCTS_DIR; };
+		C506A5BA24B9F6C000E0BC8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C506A5AA24B9EA4900E0BC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C506A5B524B9F6C000E0BC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +117,8 @@
 			children = (
 				C506A58824B9E36D00E0BC8A /* CodeForces */,
 				C506A5A324B9E7CE00E0BC8A /* Watermelon */,
+				C506A5AE24B9EA4900E0BC8A /* WayTooLongWords */,
+				C506A5B924B9F6C000E0BC8A /* Team */,
 				C506A58724B9E36D00E0BC8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +129,8 @@
 				C506A58624B9E36D00E0BC8A /* CodeForces */,
 				C506A59624B9E6BB00E0BC8A /* CodeForcesProblems */,
 				C506A5A224B9E7CE00E0BC8A /* Watermelon */,
+				C506A5AD24B9EA4900E0BC8A /* WayTooLongWords */,
+				C506A5B824B9F6C000E0BC8A /* Team */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +149,22 @@
 				C506A5A424B9E7CE00E0BC8A /* main.cpp */,
 			);
 			path = Watermelon;
+			sourceTree = "<group>";
+		};
+		C506A5AE24B9EA4900E0BC8A /* WayTooLongWords */ = {
+			isa = PBXGroup;
+			children = (
+				C506A5AF24B9EA4900E0BC8A /* main.cpp */,
+			);
+			path = WayTooLongWords;
+			sourceTree = "<group>";
+		};
+		C506A5B924B9F6C000E0BC8A /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				C506A5BA24B9F6C000E0BC8A /* main.cpp */,
+			);
+			path = Team;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +221,40 @@
 			productReference = C506A5A224B9E7CE00E0BC8A /* Watermelon */;
 			productType = "com.apple.product-type.tool";
 		};
+		C506A5AC24B9EA4900E0BC8A /* WayTooLongWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C506A5B324B9EA4900E0BC8A /* Build configuration list for PBXNativeTarget "WayTooLongWords" */;
+			buildPhases = (
+				C506A5A924B9EA4900E0BC8A /* Sources */,
+				C506A5AA24B9EA4900E0BC8A /* Frameworks */,
+				C506A5AB24B9EA4900E0BC8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WayTooLongWords;
+			productName = WayTooLongWords;
+			productReference = C506A5AD24B9EA4900E0BC8A /* WayTooLongWords */;
+			productType = "com.apple.product-type.tool";
+		};
+		C506A5B724B9F6C000E0BC8A /* Team */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C506A5BC24B9F6C000E0BC8A /* Build configuration list for PBXNativeTarget "Team" */;
+			buildPhases = (
+				C506A5B424B9F6C000E0BC8A /* Sources */,
+				C506A5B524B9F6C000E0BC8A /* Frameworks */,
+				C506A5B624B9F6C000E0BC8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Team;
+			productName = Team;
+			productReference = C506A5B824B9F6C000E0BC8A /* Team */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -179,6 +271,12 @@
 						CreatedOnToolsVersion = 11.5;
 					};
 					C506A5A124B9E7CE00E0BC8A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C506A5AC24B9EA4900E0BC8A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C506A5B724B9F6C000E0BC8A = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -199,6 +297,8 @@
 				C506A58524B9E36D00E0BC8A /* CodeForces */,
 				C506A59524B9E6BB00E0BC8A /* CodeForcesProblems */,
 				C506A5A124B9E7CE00E0BC8A /* Watermelon */,
+				C506A5AC24B9EA4900E0BC8A /* WayTooLongWords */,
+				C506A5B724B9F6C000E0BC8A /* Team */,
 			);
 		};
 /* End PBXProject section */
@@ -224,6 +324,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C506A5A524B9E7CE00E0BC8A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C506A5A924B9EA4900E0BC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C506A5B024B9EA4900E0BC8A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C506A5B424B9F6C000E0BC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C506A5BB24B9F6C000E0BC8A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +503,38 @@
 			};
 			name = Release;
 		};
+		C506A5B124B9EA4900E0BC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C506A5B224B9EA4900E0BC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C506A5BD24B9F6C000E0BC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C506A5BE24B9F6C000E0BC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,6 +570,24 @@
 			buildConfigurations = (
 				C506A5A624B9E7CE00E0BC8A /* Debug */,
 				C506A5A724B9E7CE00E0BC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C506A5B324B9EA4900E0BC8A /* Build configuration list for PBXNativeTarget "WayTooLongWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C506A5B124B9EA4900E0BC8A /* Debug */,
+				C506A5B224B9EA4900E0BC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C506A5BC24B9F6C000E0BC8A /* Build configuration list for PBXNativeTarget "Team" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C506A5BD24B9F6C000E0BC8A /* Debug */,
+				C506A5BE24B9F6C000E0BC8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
