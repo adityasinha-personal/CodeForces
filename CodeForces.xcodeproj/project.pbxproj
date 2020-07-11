@@ -8,10 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		C506A58A24B9E36D00E0BC8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C506A58924B9E36D00E0BC8A /* main.cpp */; };
+		C506A5A524B9E7CE00E0BC8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C506A5A424B9E7CE00E0BC8A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C506A58424B9E36D00E0BC8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C506A59424B9E6BB00E0BC8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C506A5A024B9E7CE00E0BC8A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +44,27 @@
 /* Begin PBXFileReference section */
 		C506A58624B9E36D00E0BC8A /* CodeForces */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeForces; sourceTree = BUILT_PRODUCTS_DIR; };
 		C506A58924B9E36D00E0BC8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C506A59624B9E6BB00E0BC8A /* CodeForcesProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeForcesProblems; sourceTree = BUILT_PRODUCTS_DIR; };
+		C506A5A224B9E7CE00E0BC8A /* Watermelon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Watermelon; sourceTree = BUILT_PRODUCTS_DIR; };
+		C506A5A424B9E7CE00E0BC8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C506A58324B9E36D00E0BC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C506A59324B9E6BB00E0BC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C506A59F24B9E7CE00E0BC8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				C506A58824B9E36D00E0BC8A /* CodeForces */,
+				C506A5A324B9E7CE00E0BC8A /* Watermelon */,
 				C506A58724B9E36D00E0BC8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				C506A58624B9E36D00E0BC8A /* CodeForces */,
+				C506A59624B9E6BB00E0BC8A /* CodeForcesProblems */,
+				C506A5A224B9E7CE00E0BC8A /* Watermelon */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +99,14 @@
 				C506A58924B9E36D00E0BC8A /* main.cpp */,
 			);
 			path = CodeForces;
+			sourceTree = "<group>";
+		};
+		C506A5A324B9E7CE00E0BC8A /* Watermelon */ = {
+			isa = PBXGroup;
+			children = (
+				C506A5A424B9E7CE00E0BC8A /* main.cpp */,
+			);
+			path = Watermelon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +129,40 @@
 			productReference = C506A58624B9E36D00E0BC8A /* CodeForces */;
 			productType = "com.apple.product-type.tool";
 		};
+		C506A59524B9E6BB00E0BC8A /* CodeForcesProblems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C506A59A24B9E6BB00E0BC8A /* Build configuration list for PBXNativeTarget "CodeForcesProblems" */;
+			buildPhases = (
+				C506A59224B9E6BB00E0BC8A /* Sources */,
+				C506A59324B9E6BB00E0BC8A /* Frameworks */,
+				C506A59424B9E6BB00E0BC8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeForcesProblems;
+			productName = CodeForcesProblems;
+			productReference = C506A59624B9E6BB00E0BC8A /* CodeForcesProblems */;
+			productType = "com.apple.product-type.tool";
+		};
+		C506A5A124B9E7CE00E0BC8A /* Watermelon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C506A5A824B9E7CE00E0BC8A /* Build configuration list for PBXNativeTarget "Watermelon" */;
+			buildPhases = (
+				C506A59E24B9E7CE00E0BC8A /* Sources */,
+				C506A59F24B9E7CE00E0BC8A /* Frameworks */,
+				C506A5A024B9E7CE00E0BC8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watermelon;
+			productName = Watermelon;
+			productReference = C506A5A224B9E7CE00E0BC8A /* Watermelon */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +173,12 @@
 				ORGANIZATIONNAME = Aditya;
 				TargetAttributes = {
 					C506A58524B9E36D00E0BC8A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C506A59524B9E6BB00E0BC8A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C506A5A124B9E7CE00E0BC8A = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -110,6 +197,8 @@
 			projectRoot = "";
 			targets = (
 				C506A58524B9E36D00E0BC8A /* CodeForces */,
+				C506A59524B9E6BB00E0BC8A /* CodeForcesProblems */,
+				C506A5A124B9E7CE00E0BC8A /* Watermelon */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +209,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C506A58A24B9E36D00E0BC8A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C506A59224B9E6BB00E0BC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C506A59E24B9E7CE00E0BC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C506A5A524B9E7CE00E0BC8A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +355,38 @@
 			};
 			name = Release;
 		};
+		C506A59B24B9E6BB00E0BC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C506A59C24B9E6BB00E0BC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C506A5A624B9E7CE00E0BC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C506A5A724B9E7CE00E0BC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +404,24 @@
 			buildConfigurations = (
 				C506A58E24B9E36D00E0BC8A /* Debug */,
 				C506A58F24B9E36D00E0BC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C506A59A24B9E6BB00E0BC8A /* Build configuration list for PBXNativeTarget "CodeForcesProblems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C506A59B24B9E6BB00E0BC8A /* Debug */,
+				C506A59C24B9E6BB00E0BC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C506A5A824B9E7CE00E0BC8A /* Build configuration list for PBXNativeTarget "Watermelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C506A5A624B9E7CE00E0BC8A /* Debug */,
+				C506A5A724B9E7CE00E0BC8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
